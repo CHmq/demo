@@ -9,7 +9,7 @@ import {
 import Header from './components/Header';
 import Navleft from './components/Navleft';
 import Footer from './components/Footer';
-import Home from './pages/home';
+import Home from './pages/Home';
 import './Admin.less';
 import 'antd/dist/antd.css';
 
@@ -23,7 +23,8 @@ export default class Admin extends Component {
 			   </Col>
 			    <Col span={20} className="main">
 			        <Header></Header>
-			        <Home></Home>
+			        {/*<Home></Home>*/}
+			        {this.props.children}
 			        <Footer></Footer>
 			   </Col>
 			</Row>

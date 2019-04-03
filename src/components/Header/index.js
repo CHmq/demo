@@ -39,7 +39,6 @@ export default class Header extends Component {
 		}).then((res) => {
 			if (res.status == '1') {
 				let data = res.lives[0]
-				console.log(data)
 				this.setState({
 					province: data.province,
 					city: data.city,
