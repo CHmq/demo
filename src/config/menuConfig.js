@@ -20,7 +20,17 @@ const menuList = [{
 	}, {
 		title: '订单管理',
 		key: '/admin/order'
-	},
+	}, {
+		title: '图表',
+		key: '/admin/charts',
+		children: [{
+			title: 'bizcharts',
+			key: '/admin/charts/bizcharts'
+		}, ]
+	},{
+		title: '信息框',
+		key: '/admin/message'
+	}
 
 ]
 

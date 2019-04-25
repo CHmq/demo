@@ -44,7 +44,7 @@ export default class Uselist extends Component {
 			})
 			//接受promise抛回的数据
 			.then((res) => {
-				if (res.code == 0) {
+				if (res.code === 0) {
 					res.result.list.map((item, index) => {
 						return item.key = index
 					})
@@ -62,7 +62,7 @@ export default class Uselist extends Component {
 		let selectKey = [index];
 		Modal.info({
 			title: "当前选择的是：",
-			content: `姓名:${record.name}` + ` ` + `职业:${record.work}`
+			content: `姓名:${record.name}` `` + `职业:${record.work}`
 		})
 		this.setState({
 			selectKeys: selectKey,
@@ -99,7 +99,7 @@ export default class Uselist extends Component {
 			title: 'Sex',
 			dataIndex: 'sex',
 			render(sex) {
-				return sex == 1 ? '男' : '女';
+				return sex === 1 ? '男' : '女';
 			}
 		}, {
 			title: 'Ages',
@@ -162,7 +162,7 @@ export default class Uselist extends Component {
 				    </Table>
 
 				</Card>
-				//单选表单
+				{/* //单选表单 */}
 				<Card title="axios获取的mock数据">
 					<Table columns={columns} dataSource={this.state.dataSource2} rowSelection={rowSelection}
 					onRow={(record,index) => {
@@ -175,7 +175,7 @@ export default class Uselist extends Component {
 				    </Table>
 
 				</Card>
-				//多选表单
+				{/* //多选表单 */}
 				<Card title="axios获取的mock数据">
 					<Button type="danger" onClick={this.handleDel}>Delete</Button>
 					<Table columns={columns} dataSource={this.state.dataSource2} rowSelection={checkboxSelection}>					}}> 

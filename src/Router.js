@@ -17,6 +17,8 @@ import AdminList from './pages/AdminList';
 import Order from './pages/Order';
 import Common from './common'
 import OrderDetail from './pages/Order/detail'
+import Charts from './pages/Charts'
+import Message from './pages/Message'
 
 
 //这里不能用path="/"，因为三者都平级关系，所以会全部加载；
@@ -27,13 +29,15 @@ export default class Router extends Component {
 			<HashRouter>
 				<App>
 					<Route path="/login" component={Login}></Route>
-					<Route path="/admin" render= {()=>
+					<Route path="/" render= {()=>
 						<Admin>
 							<Switch>
-								<Route path="/admin/home" component={Home}></Route>
-								<Route path="/admin/useList/addUser" component={Uselist}></Route>
-								<Route path="/admin/adminList" component={AdminList}></Route>
-								<Route path="/admin/order" component={Order}></Route>
+								<Route path="/admin/home" component={Home}/>
+								<Route path="/admin/useList/addUser" component={Uselist}/>
+								<Route path="/admin/adminList" component={AdminList}/>
+								<Route path="/admin/order" component={Order}/>
+								<Route path="/admin/charts/bizcharts" component={Charts}/>
+								<Route path="/admin/message" component={Message}/>
 								<Redirect to="/admin/home" />																
 							</Switch>
 						</Admin>}>	

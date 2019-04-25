@@ -3,7 +3,6 @@ import {Card,Button,Table,Form,Select,Modal,message} from 'antd'
 import axios from '../../axios'
 import Utils from '../../components/utils/util'
 const FormItem = Form.Item;
-const Option = Select.Option;
 export default class Order extends React.Component {
 	state = {
 		orderInfo: {},

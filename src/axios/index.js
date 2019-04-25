@@ -12,11 +12,11 @@ export default class Axios {
 			Jsonp(options.url, {
 				param: 'callback'
 			}, function(err, response) {
-				if (response.status == '1') {
-					resolve(response)
-				} else {
-					reject("err.message")
-				}
+				// if (response.status == '1') {
+				// 	resolve(response)
+				// } else {
+				// 	reject("err.message")
+				// }
 
 			})
 		})
