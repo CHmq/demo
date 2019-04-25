@@ -68,7 +68,7 @@ class LoginForm extends Component {
         					initialValue: true,
       						})(<Checkbox>Remember me</Checkbox>
          				 )}
-          				<a className="login-form-forgot" href="">Forgot password</a>       
+          				<a className="login-form-forgot" href="/">Forgot password</a>       
 		        	</Form.Item>
 
 					<Form.Item>

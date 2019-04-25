@@ -45,16 +45,15 @@ export default class Uselist extends Component {
 			//接受promise抛回的数据
 			.then((res) => {
 				if (res.code == 0) {
-					res.result.map((item, index) => {
+					res.result.list.map((item, index) => {
 						return item.key = index
 					})
 					this.setState({
 						selectKeys: [],
 						selectRows: null,
-						dataSource2: res.result
+						dataSource2: res.result.list
 					})
 				}
-				s
 			})
 	}
 

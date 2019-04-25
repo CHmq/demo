@@ -25,7 +25,7 @@ export default class Axios {
 
 	static ajax(options) {
 		//声明变量url
-		let babelApi = 'https://www.easy-mock.com/mock/5ca47bf2ac5abe5a8d89b967/exampledemo'
+		let babelApi = 'https://www.easy-mock.com/mock/5a7278e28d0c633b9c4adbd7/api'
 		//控制开关，拦截状态码以及发送错误信息
 		return new Promise((resolve, reject) => {
 			axios({

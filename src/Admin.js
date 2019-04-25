@@ -9,7 +9,7 @@ import {
 import Header from './components/Header';
 import Navleft from './components/Navleft';
 import Footer from './components/Footer';
-import Home from './pages/Home';
+// import Home from './pages/Home';
 import './Admin.less';
 import 'antd/dist/antd.css';
 

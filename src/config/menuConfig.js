@@ -14,6 +14,12 @@ const menuList = [{
 			title: '删除用户',
 			key: '/admin/useList/delUser'
 		}]
+	}, {
+		title: '管理员设置',
+		key: '/admin/adminList'
+	}, {
+		title: '订单管理',
+		key: '/admin/order'
 	},
 
 ]
