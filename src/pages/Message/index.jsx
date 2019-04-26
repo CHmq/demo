@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import {Button,Modal,message} from 'antd';
-import ModelTabs from './ModelTabs'
+import {Button,Modal} from 'antd';
+import ModelTabs from './ModelTabs';
 
 export default class Message extends Component {
 
@@ -27,14 +27,16 @@ export default class Message extends Component {
   render() {
     return (
       <div>
+
         <Button type="primary" onClick={this.showModal}>
           Open Modal
         </Button>
         <Modal
           title="新增课程"
+          mask ={false}
           visible={this.state.visible}
           onOk={this.handleOk}
-          onCancel={this.handleCancel}
+          footer={false}
         >
           <ModelTabs/>
         </Modal>
