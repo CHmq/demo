@@ -1,0 +1,142 @@
+{
+  "SUPPORT_LOCALES": {
+    "hk": {
+      "lang": [
+        {
+          "name": "繁体中文",
+          "value": "zh",
+          "url": "hk"
+        },
+        {
+          "name": "English",
+          "value": "en",
+          "url": "en"
+        }
+      ],
+      "vo_lang": [
+        {
+          "name": "廣東話",
+          "value": "cantonese",
+          "url": null
+        },
+        {
+          "name": "English",
+          "value": "english",
+          "url": null
+        },
+        {
+          "name": "普通話",
+          "value": "putonghua",
+          "url": null
+        }
+      ],
+      "url": "https://hk.evi.com.hk/",
+      "assets": "https://assets.evi.com.hk/",
+      "global": false
+    },
+    "my": {
+      "lang": [
+        {
+          "name": "English",
+          "value": "en",
+          "url": "my"
+        },
+        {
+          "name": "简体中文",
+          "value": "cn",
+          "url": "zh-CN"
+        }
+      ],
+      "vo_lang": [
+        {
+          "name": "English",
+          "value": "english",
+          "url": null
+        },
+        {
+          "name": "普通話",
+          "value": "putonghua",
+          "url": null
+        }
+      ],
+      "url": "https://www.evifamily.com/",
+      "assets": "https://assets.evifamily.com/",
+      "global": true
+    },
+    "mo": {
+      "lang": [
+        {
+          "name": "繁体中文",
+          "value": "zh",
+          "url": "mo"
+        },
+        {
+          "name": "English",
+          "value": "en",
+          "url": "en"
+        }
+      ],
+      "vo_lang": [
+        {
+          "name": "廣東話",
+          "value": "cantonese",
+          "url": null
+        },
+        {
+          "name": "English",
+          "value": "english",
+          "url": null
+        },
+        {
+          "name": "普通話",
+          "value": "putonghua",
+          "url": null
+        }
+      ],
+      "url": "https://www.evifamily.com/",
+      "assets": "https://assets.evifamily.com/",
+      "global": true
+    },
+    "cn": {
+      "lang": [
+        {
+          "name": "简体中文",
+          "value": "cn",
+          "url": "cn"
+        },
+        {
+          "name": "English",
+          "value": "en",
+          "url": "en"
+        }
+      ],
+      "vo_lang": [
+        {
+          "name": "普通話",
+          "value": "putonghua",
+          "url": null
+        },
+        {
+          "name": "English",
+          "value": "english",
+          "url": null
+        }
+      ],
+      "url": "https://hk.evi.com.hk/",
+      "assets": "https://assets.evi.com.hk/",
+      "global": false
+    }
+  },
+  "defaultLocation": "hk",
+  "location": "hk",
+  "APP_SETTINGS": {
+    "AppKey": 25822858,
+    "AppSecret": "8f8c5e33ab16902b572538f6c58050b3",
+    "LOCATION": "my",
+    "GLOBAL_ROUTE": true
+  },
+  "API_URL": {
+    "user": "https://api-user.service.evifamily.com",
+    "resource": "https://api-resource.service.evifamily.com"
+  }
+}

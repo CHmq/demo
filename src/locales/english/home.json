@@ -1,0 +1,418 @@
+{
+  "home": {
+    "page": "home",
+    "language": "en",
+    "publicMsg": {
+      "header": {
+        "loginbtn": " Login",
+        "registerbtn": "Register",
+        "searchTips": "Search Content",
+        "rankingList": "Top 100 Members",
+        "history": "History",
+        "favorite": "My Favorite",
+        "award": "My Award",
+        "parents": "parents",
+        "translations": "Translations",
+        "accomplish": "Study Achievement ",
+        "languageList": {
+          "translations": "translations",
+          "locationLanguage": "Language",
+          "location": "Other Country",
+          "locations": {
+            "hk": "Hong Kong, China",
+            "my": "Malaysia",
+            "hk_GFW": "Hong Kong, China (cross border)",
+            "cn": "Chinese Mainland",
+            "mo": "Macau, China"
+          }
+        }
+      },
+      "footer": {
+        "about": "AboutUs",
+        "liaison": "Contact Us",
+        "agreement": "Privacy Policy",
+        "Disclaimer": "Disclaimer"
+      },
+      "drawer": {
+        "ChangePword": "Change password",
+        "LogoutWord": "Log out",
+        "charttitle": "Self-study time this week",
+        "chartmin": "min",
+        "chartweek": "week",
+        "awardtitle": "achievement",
+        "more": "More achievements",
+        "LogoutTitle": "Are you sure you want to log out?",
+        "Btncancel": "cancel",
+        "Btnconfirm": "ok",
+        "titleTransfer": "Account transfer"
+      },
+      "role": {
+        "firstLogin": {
+          "title": "Login children's account",
+          "form": {
+            "username": "Please enter user name",
+            "pwd": "Please enter password"
+          },
+          "rememberMe": "Remember me",
+          "forgetPwd": "Forgot password",
+          "loginIn": "Login",
+          "fbLoginIn": "Facebook login",
+          "wxLoginIn": "Wechat login",
+          "LoginTipsRegister": {
+            "or": "or",
+            "tips": "Not registered yet, register now!",
+            "goParent": "Parental Account"
+          }
+        },
+        "edit": {
+          "title": "Parent management",
+          "family": "Family :",
+          "parent": {
+            "parentTitle": "Parent",
+            "role": "Administrator",
+            "father": "Father",
+            "mother": "Mother"
+          },
+          "kid": {
+            "kidTitle": "Children",
+            "state": {
+              "isBinding": "Binded",
+              "unbound": "Unbound"
+            },
+            "role": {
+              "isBinding": "Official account",
+              "unbound": "Trial account"
+            }
+          },
+          "addKid": "Add hildren",
+          "addFamilyKid": "Invite family members to join",
+          "ensure": "OK"
+        },
+        "tipsAddKid": {
+          "title": "Add other children",
+          "addTrialAccout": "Add a trial account",
+          "addExistAccout": "Add an existing evi account"
+        },
+        "addKid": {
+          "form": {
+            "f_name": "frist name",
+            "l_name": "last name",
+            "gender": {
+              "M": "Man",
+              "F": "female"
+            },
+            "grade": "grade"
+          },
+          "title": "Add a trial account",
+          "addAccount": "Add",
+          "return": "return"
+        },
+        "addParent": {
+          "title": "new parents",
+          "form": {
+            "msg_tips": "please choose the way to add parents (only one way)",
+            "email": "please enter email",
+            "tel": "please enter your mobile phone number",
+            "relation_tips": "Please choose the relationship between parents and children",
+            "relation": [
+              "Father",
+              "Mother",
+              "Maternal_Grandfather",
+              "Maternal_Grandmother",
+              "Paternal_Grandfather",
+              "Paternal_Grandmother"
+            ]
+          },
+          "save": " new parents ",
+          "return": "return"
+        }
+      },
+      "search": {
+        "placeholder": "Search EVI's resource"
+      },
+      "resource_type": {
+        "jttw360": "Explore360",
+        "jttw": "JTTW",
+        "learn": "Learn",
+        "project": "Project",
+        "document": "Doc",
+        "mc": "MC",
+        "img_real": "Photo",
+        "img_cartoon": "Cartoon Image",
+        "img_line_graph": "Line Image"
+      }
+    }
+  },
+  "loading": {
+    "page": "logout",
+    "language": "en",
+    "publicMsg": {
+      "register": {
+        "title": "Welcome, parents of children!!!",
+        "content": "Please fill in your information for parent login.",
+        "procedure": {
+          "code": "Register Code",
+          "verify": "Verify",
+          "done": "done"
+        },
+        "type": {
+          "email": "E-mail",
+          "phone": "Phone",
+          "facebook": "Facebook"
+        },
+        "form": {
+          "email": "Email",
+          "pwd": "Password",
+          "confirmpwd": "Confirm password",
+          "sex": "Sex",
+          "man": "man",
+          "lady": "lady",
+          "name": "Name",
+          "surname": "Surname",
+          "phone": "Phone",
+          "occupied": "The mailbox has been registered",
+          "verifyMsg": {
+            "emailMsg": "Please enter your email",
+            "emailWarnMsg": "Please enter the correct email format",
+            "pwdMsg": "Please enter your password",
+            "pwdWarnMsg": "Please enter a 6-30-bit password containing upper and lower case letters and numbers.",
+            "confirmMsg": "Please enter your password again",
+            "confirmWarnMsg": "The passwords entered twice are inconsistent",
+            "name": "Name cannot be empty",
+            "surname": "Surname can't be empty",
+            "nameMsg": "Please enter your name",
+            "surnameMsg": "Please enter your last name",
+            "phoneMsg": "Please select the area code corresponding to your mobile phone number",
+            "Phone": "Please enter the phone number.",
+            "Phone Warn Msg": "Please enter the correct mobile format"
+          },
+          "btn": "register"
+        },
+        "verify": {
+          "code": "Verification Code",
+          "codeMsg": "Please input the received authentication code",
+          "codeWarnMsg": "Please enter a 6-digit verification code",
+          "sendbtn": "Resend",
+          "resendbtn": "resend later",
+          "btn": "Verification"
+        }
+      }
+    },
+    "content": {
+      "titleleft": "Independent Exploration",
+      "contentleft": "EVIGarten, based on the concept of 'self-exploration and learning', advises children to watch interesting content through AI intelligence and encourages self-exploration learning.",
+      "titlemiddle": "Multicultural Courses",
+      "contentmiddle": "There are well-organized multi-curriculum, including「Exploration 360」 to lead children to explore the world, life knowledge of ten common topics in kindergartens, and other multimedia curriculum contents for children.",
+      "titleright": "Learning process",
+      "contentright": "Provide parents and children with a complete learning process file, let parents know more about children's learning interest and pace, through the lovely form of learning records, but also promote children's initiative to learn.",
+      "morebtn": "Read More"
+    },
+    "login": {
+      "parentLogin": {
+        "welcomeTips": {
+          "oneLine": "Children's parents, welcome you",
+          "towLine": "Please enter the parent account login information"
+        },
+        "loginIn": "Login",
+        "ParentTipsRegister": {
+          "or": "or",
+          "tips": "Is there a parent account account?",
+          "goParent": "Register now"
+        }
+      }
+    },
+    "forget": {
+      "infortitle": "input data",
+      "title": "Verification",
+      "gettitle": "Please enter email/phone",
+      "inputrule": "Please enter email/phone",
+      "verifybtn": "Get verification code",
+      "verifytitle": "The verification code has been sent to the account number",
+      "verifynumber": "verification code",
+      "verifyrule": "Please enter the verification code",
+      "getverifybtn": "Get verification code",
+      "password": "password",
+      "passwordnull": "Please enter a password",
+      "passwordrule": "Please enter 6~30 passwords containing uppercase and lowercase letters and numbers",
+      "passwordbtn": "Reset password"
+    },
+    "course": {
+      "title": "knowledge of life",
+      "content": "Top ten topics include transportation, animals, nature, community, health and hygiene, schools, environmental protection, food, individuals and families, and people who help us, so that children can learn more different knowledge according to their interests, supplemented by「MC Question」,「Work Paper」and「Thematic Exploration」. "
+    },
+    "explore": {
+      "title": "explore360",
+      "content": "With animated stories, thinking questions, games and moral education, students are encouraged to explore and think more, so as to construct knowledge."
+    }
+  },
+  "achievements": {
+    "page": "achievements",
+    "language": "en",
+    "content": {
+      "titleImg": "Please select the image you want to upload.",
+      "titlerelationship": "Parent-child relationship",
+      "titleTime": "Today's use time",
+      "min": "minute",
+      "titleAbility": "Brain power challenge ability",
+      "Logintime": {
+        "today": "today",
+        "week": "Last 7 days",
+        "month": "Last 30 days"
+      }
+    }
+  },
+  "info": {
+    "page": "info",
+    "language": "en",
+    "content": {
+      "Message": {
+        "title": "Parent Message",
+        "btnword": "I want to leave a message",
+        "tiptitle": "Please enter the text",
+        "commentsword": "Preset comments",
+        "Submitbtn": "Submit"
+      },
+      "Card": {
+        "Sharebtn": "Other children's topic exploration",
+        "backbtn": "come back"
+      }
+    }
+  },
+  "myFavorite": {
+    "page": "favorite",
+    "language": "en",
+    "content": {
+      "title": "My Favorite"
+    }
+  },
+  "history": {
+    "page": "history",
+    "language": "en",
+    "content": {
+      "title": "History"
+    }
+  },
+  "course_1": {
+    "page": "course_1",
+    "language": "en",
+    "content": {
+      "traffic": "Traffic",
+      "ModalTitle": "Please select an image/video to upload",
+      "Breadcrumb": {
+        "home": "Home",
+        "lifeKnowledge": "Knowledge"
+      },
+      "option": {
+        "grade": "Please select the grade",
+        "studentEdit": "Student Edit",
+        "calssAdd": "Class Add"
+      },
+      "edit": {
+        "banner": "Change banner",
+        "video": "Change video",
+        "logo": "Change",
+        "background": "Change background"
+      },
+      "PopupAECoursware": {
+        "Type": "Type",
+        "State": "State",
+        "Name": "Name",
+        "Question": "Question",
+        "File": "File",
+        "FileSupport": "File support",
+        "Coverimg": "Cover image",
+        "Coverimgbtn": "Upload an image",
+        "CoverimgSupport": "Support for the case",
+        "Grade": "Grade",
+        "Releasetime": "Release time",
+        "Endtime": "End time",
+        "Teachingfocus": "Teaching focus",
+        "Keywords": "Keywords",
+        "TITLE": "New plus",
+        "btnadd": "Add",
+        "btnsure": "Define",
+        "Radiodocument": "Work paper",
+        "Radioproject": "Explore small events",
+        "SelectEffective": "Effective",
+        "SelectInvalid": "Invalid",
+        "rulesType": "Please choose a type",
+        "rulesStatus": "Please select the status",
+        "rulesName": "Please fill in the name",
+        "rulesGrade": "Please choose a grade",
+        "rulesReleasetime": "Please choose the time of release"
+      },
+      "PopupCoursware": {
+        "title": "Search courseware",
+        "changeItem": "chosen",
+        "Teachingfocus": "Teaching focus",
+        "btnnew": "new",
+        "btnbuild": "build",
+        "edit": "edit"
+      }
+    },
+    "tabs": {
+      "data": "Course materials",
+      "sort": "Courseware sorting"
+    },
+    "courseData": {
+      "editTitle": "Editing course",
+      "addTitle": "Increase course",
+      "form": {
+        "name": "Course Title",
+        "publish_time": "Release time",
+        "end_time": "End date",
+        "grade": "Grade",
+        "description": "Teaching focus"
+      },
+      "RadioGroup": {
+        "all": "All",
+        "schedule": "Schedule",
+        "arrange": "Arrange"
+      },
+      "button": {
+        "compile": "Edit",
+        "cancel": "Cancel",
+        "nextStep": "Next"
+      }
+    },
+    "courseSort": {
+      "prompt": "Use the mouse to drag the courseware to adjust the order:",
+      "button": {
+        "previous": "Previous",
+        "done": "Done"
+      }
+    },
+    "UploadingFile": {
+      "tip": "Upload image/video",
+      "btn": "Confirm upload"
+    }
+  },
+  "coursefinish": {
+    "page": "coursefinish",
+    "language": "en",
+    "content": {
+      "title": "Course",
+      "Completed": "finish",
+      "backbtn": "come back"
+    }
+  },
+  "knowledgefinish": {
+    "page": "knowledgefinish",
+    "language": "en",
+    "content": {
+      "title": "Life knowledge",
+      "Completed": "finish",
+      "Open": "Unlocked object",
+      "change": "Change",
+      "backbtn": "come back"
+    }
+  },
+  "ranking": {
+    "page": "ranking",
+    "language": "en",
+    "content": {
+      "btnrules": "rule",
+      "time": "Updated"
+    }
+  }
+}

@@ -1,0 +1,136 @@
+// banner 部分
+
+.shooLogo_button , .video_button , .banner_button , .background_button {
+    color: #fff;
+    border: 1px solid #fff;
+    cursor : pointer;
+    background-color: rgba(0,0,0,0.5);
+    padding: 5px 10px;
+}
+
+.shooLogo_container{
+    position: relative;
+    .shooLogo_button{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 80px;
+        height: 80px;
+        text-align: center;
+        line-height: 80px;
+        border-radius: 50%;
+        font-size: 12px;
+    }
+}
+.shooLogo_container:hover{
+    .shooLogo_button{
+        display: block;
+    }
+}
+
+.video_container{
+    position: relative;
+    .video_button{
+        position: absolute;
+        display: none;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+.video_container:hover{
+    .video_button{
+        display: block;
+    }
+}
+
+.bannerwarp {
+    position: relative;
+    .bannermain {
+        .left {
+            display: flex;
+            align-items: center;
+            padding-bottom: 5%;
+
+        }
+    }
+    .banner_button{
+        display: none;
+        position: absolute;
+        top: 7%;
+        left: 2%;
+    }
+}
+.bannerwarp:hover{
+    .banner_button{
+        display: block;
+    }
+}
+
+.background_button{
+    position: absolute;
+    top : 0;
+    cursor: pointer;
+    margin: 0.2rem auto;
+}
+
+//課程内容框 知识内容框 样式
+.container {  
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    .itemtitle {
+        position: absolute;
+        bottom: -8px;
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+.warp {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    width: 40px;
+    // height: 40px;
+    z-index: 1;
+    // background-color: red;
+    .btn {
+        width: 40px;
+        height: 40px;
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        font-size: 20px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .set{
+        border-radius: 0 20px 0 0;
+    }
+    .camera {
+        border-top: 1px solid #fff
+    }
+}
+
+
+.message {
+    display: inline-block;
+    width: 100%;
+    color: #000;
+    text-align: center;
+}
+
+@media (min-width: 576px) {
+    // 内容
+    .item {
+        width:210px;
+    }
+}
+.item {
+    height:180px;
+}

@@ -1,0 +1,418 @@
+{
+  "home": {
+    "page": "home",
+    "language": "zh",
+    "publicMsg": {
+      "header": {
+        "loginbtn": "登入",
+        "registerbtn": "注册",
+        "searchTips": "搜索内容",
+        "rankingList": "龙虎榜",
+        "history": "观看记录",
+        "favorite": "我的最爱",
+        "award": "我的奖赏",
+        "parents": "家长版",
+        "translations": "多语言",
+        "accomplish": "学习成果",
+        "languageList": {
+          "translations": "多语言",
+          "locationLanguage": "语言",
+          "location": "其他地区",
+          "locations": {
+            "hk": "中国香港",
+            "my": "马来西亚",
+            "hk_GFW": "中国香港(跨境)",
+            "cn": "中国大陆",
+            "mo": "中国澳门"
+          }
+        }
+      },
+      "footer": {
+        "about": "关于我们",
+        "liaison": "联络我们",
+        "agreement": "隐私条款",
+        "Disclaimer": "免责条款"
+      },
+      "drawer": {
+        "ChangePword": "修改密码",
+        "LogoutWord": "登出",
+        "charttitle": "本周自学时间",
+        "chartmin": "分钟",
+        "chartweek": "星期",
+        "awardtitle": "成就",
+        "more": "更多成就资料",
+        "LogoutTitle": "你确定要登出吗？",
+        "Btncancel": "取消",
+        "Btnconfirm": "确认",
+        "titleTransfer": "帐号转移"
+      },
+      "role": {
+        "firstLogin": {
+          "title": "登录子女账号",
+          "form": {
+            "username": "请输入用户名",
+            "pwd": "请输入密码"
+          },
+          "rememberMe": "记住我",
+          "forgetPwd": "忘记密码",
+          "loginIn": "登入",
+          "fbLoginIn": "Facebook 登入",
+          "wxLoginIn": "Wechat 登入",
+          "LoginTipsRegister": {
+            "or": "或",
+            "tips": "还未注册,立即登记!",
+            "goParent": "家长账号"
+          }
+        },
+        "edit": {
+          "title": "家长管理",
+          "family": "家庭 :",
+          "parent": {
+            "parentTitle": "家长",
+            "role": "管理员",
+            "father": "父亲",
+            "mother": "母亲"
+          },
+          "kid": {
+            "kidTitle": "子女",
+            "state": {
+              "isBinding": "已绑定",
+              "unbound": "未绑定"
+            },
+            "role": {
+              "isBinding": "正式账户",
+              "unbound": "试用账户"
+            }
+          },
+          "addKid": "新增子女",
+          "addFamilyKid": "邀请家庭成员加入",
+          "ensure": "确定"
+        },
+        "tipsAddKid": {
+          "title": "新增其他子女",
+          "addTrialAccout": "新增试用账户",
+          "addExistAccout": "添加已有evi账户"
+        },
+        "addKid": {
+          "form": {
+            "f_name": "名",
+            "l_name": "姓",
+            "gender": {
+              "M": "男",
+              "F": "女"
+            },
+            "grade": "年级"
+          },
+          "title": "新增试用账户",
+          "addAccount": "新增",
+          "return": "返回"
+        },
+        "addParent": {
+          "title": "新增家长",
+          "form": {
+            "msg_tips": "请选择方式添加家长(只需一种)",
+            "email": "请输入邮箱",
+            "tel": "请输入手机号码",
+            "relation_tips": "请选择家长和子女的关系",
+            "relation": [
+              "爸爸",
+              "妈妈",
+              "奶奶",
+              "爷爷",
+              "外公",
+              "婆婆"
+            ]
+          },
+          "save": "新增家长",
+          "return": "返回"
+        }
+      },
+      "search": {
+        "placeholder": "搜寻 EVI 资源"
+      },
+      "resource_type": {
+        "jttw360": "探索360",
+        "jttw": "通识漫游",
+        "learn": "自学小天地",
+        "project": "探索小活动",
+        "document": "工作纸",
+        "mc": "MC",
+        "img_real": "相片",
+        "img_cartoon": "卡通图",
+        "img_line_graph": "线图"
+      }
+    }
+  },
+  "loading": {
+    "page": "logout",
+    "language": "zh",
+    "publicMsg": {
+      "register": {
+        "title": "小朋友家长，欢迎您!!!",
+        "content": "请填写您的资料以进行家长登入程序。",
+        "procedure": {
+          "code": "注册码",
+          "verify": "验证",
+          "done": "完成"
+        },
+        "type": {
+          "email": "邮箱",
+          "phone": "电话",
+          "facebook": "Facebook"
+        },
+        "form": {
+          "email": "邮箱",
+          "pwd": "密码",
+          "confirmpwd": "确认密码",
+          "sex": "性别",
+          "man": "先生",
+          "lady": "女士",
+          "name": "名字",
+          "surname": "姓氏",
+          "phone": "电话",
+          "occupied": "邮箱已被注册",
+          "verifyMsg": {
+            "emailMsg": "请输入邮箱",
+            "emailWarnMsg": "请输入正确的邮箱格式",
+            "pwdMsg": "请输入密码",
+            "pwdWarnMsg": "请输入6~30位包含大小写字母及数字的密码",
+            "confirmMsg": "请再次输入密码",
+            "confirmWarnMsg": "两次输入的密码不一致",
+            "name": "名字不能为空",
+            "surname": "姓氏不能为空",
+            "nameMsg": "请输入您的名字",
+            "surnameMsg": "请输入您的姓氏",
+            "phoneMsg": "请选择与您的手机号码相对应的区号",
+            "phone": "请输入手机号码",
+            "phoneWarnMsg": "请输入正确的手机格式"
+          },
+          "btn": "注册"
+        },
+        "verify": {
+          "code": "验证码",
+          "codeMsg": "请输入接收到的验证码",
+          "codeWarnMsg": "请输入6位数字的验证码",
+          "sendbtn": "重新发送",
+          "resendbtn": "后重新发送",
+          "btn": "验证"
+        }
+      }
+    },
+    "content": {
+      "titleleft": "自主探索",
+      "contentleft": "EVIGarten以「自主探索‧学会学习」为理念，透过AI智能建议幼儿观看感兴趣的内容，鼓励进行自主探索学习。",
+      "titlemiddle": "多元课程",
+      "contentmiddle": "备有精心编排的多元课程，包括带领幼儿探索世界的「探索360」；提供幼稚园常用十大主题的「生活知识」，另外其他幼儿多媒体课程内容。",
+      "titleright": "学习历程",
+      "contentright": "为家长和幼儿提供完善的学习历程档案，让家长更了解小朋友的学习兴趣和步伐，透过可爱的学习记录形式，亦同时推动幼儿主动学习的动力。",
+      "morebtn": "查看更多"
+    },
+    "login": {
+      "parentLogin": {
+        "welcomeTips": {
+          "oneLine": "小朋友家长,欢迎您",
+          "towLine": "请输入家长账号登入资料"
+        },
+        "loginIn": "登入",
+        "ParentTipsRegister": {
+          "or": "或",
+          "tips": "未有家长账账户?",
+          "goParent": "立即登记"
+        }
+      }
+    },
+    "forget": {
+      "infortitle": "输入资料",
+      "title": "验证",
+      "gettitle": "请输入电邮/电话",
+      "inputrule": "请输入电邮/电话",
+      "verifybtn": "获取验证码",
+      "verifytitle": "验证码已寄到以账号",
+      "verifynumber": "验证码",
+      "verifyrule": "请输入验证码",
+      "getverifybtn": "获取验证码",
+      "password": "密码",
+      "passwordnull": "请输入密码",
+      "passwordrule": "请输入6~30位包含大小写字母及数字的密码",
+      "passwordbtn": "重置密码"
+    },
+    "course": {
+      "title": "生活知识",
+      "content": "十大主题包括交通、动物、大自然、社区、健康与卫生、学校、环保、食物、个人与家庭、帮助我们的人，让小朋友按兴趣学习更多不同知识，另更辅有「MC题」、「工作纸」，和「专题探索」。"
+    },
+    "explore": {
+      "title": "探索360",
+      "content": "配合动画故事、思考题、游戏、德育等元素，鼓励学童多探索、多思考，从而建构知识。"
+    }
+  },
+  "achievements": {
+    "page": "achievements",
+    "language": "zh",
+    "content": {
+      "titleImg": "请选择需要上传的图片",
+      "titlerelationship": "亲子关係",
+      "titleTime": "今日使用时间",
+      "min": "分钟",
+      "titleAbility": "脑力大挑战能力",
+      "Logintime": {
+        "today": "今天",
+        "week": "过去7天",
+        "month": "过去30天"
+      }
+    }
+  },
+  "info": {
+    "page": "info",
+    "language": "zh",
+    "content": {
+      "Message": {
+        "title": "家长留言",
+        "btnword": "我想留言",
+        "tiptitle": "请输入文字",
+        "commentsword": "预设评论",
+        "Submitbtn": "提交"
+      },
+      "Card": {
+        "Sharebtn": "其他小朋友专题探索",
+        "backbtn": "返回"
+      }
+    }
+  },
+  "myFavorite": {
+    "page": "favorite",
+    "language": "zh",
+    "content": {
+      "title": "我的最爱"
+    }
+  },
+  "history":{
+    "page": "history",
+    "language": "zh",
+    "content": {
+      "title": "观看记录"
+    }
+  },
+  "course_1":{
+    "page": "course_1",
+    "language": "zh",
+    "content": {
+      "traffic": "交通",
+      "ModalTitle":"请选择需要上传的图片/影片",
+      "Breadcrumb": {
+        "home": "首页",
+        "lifeKnowledge": "生活知识"
+      },
+      "option": {
+        "grade": "请选择年级",
+        "studentEdit": "学生管理",
+        "calssAdd": "新增课程"
+      },
+      "edit": {
+        "banner": "更改封面相片",
+        "video": "更改影片",
+        "logo": "更新",
+        "background": "更改背景"
+      },
+      "PopupAECoursware":{
+        "Type":"类型",
+        "State":"状态",
+        "Name":"名称",
+        "Question" : "题目",
+        "File" : "文件",
+        "FileSupport" : "支援档案",
+        "Coverimg":"封面图",
+        "Coverimgbtn":"上传图片",
+        "CoverimgSupport":"支持档案",
+        "Grade":"年级",
+        "Releasetime":"发佈时间",
+        "Endtime":"结束时间",
+        "Teachingfocus":"教学重点",
+        "Keywords":"关键字",
+        "TITLE":"新加",
+        "btnadd":"添加",
+        "btnsure":"确定",
+        "Radiodocument":"工作纸",
+        "Radioproject":"探索小活动",
+        "SelectEffective":"有效",
+        "SelectInvalid":"无效",
+        "rulesType":"请选择类型",
+        "rulesStatus":"请选择状态",
+        "rulesName":"请输入名称",
+        "rulesGrade":"请选择年级",
+        "rulesReleasetime":"请选择发布时间"
+      },
+      "PopupCoursware":{
+        "title":"搜寻课件",
+        "changeItem":"已选择",
+        "Teachingfocus":"教学重点",
+        "btnnew":"新建",
+        "btnbuild":"建立",
+        "edit":"编辑"
+      }
+    },
+    "tabs": {
+      "data": "课程资料",
+      "sort": "课件排序"
+    },
+    "courseData": {
+      "editTitle": "编辑课程",
+      "addTitle": "新增课程",
+      "form": {
+        "name": "课程名称",
+        "publish_time": "发佈时间",
+        "end_time": "结束日期",
+        "grade": "年级",
+        "description": "教学重点"
+      },
+      "RadioGroup": {
+        "all": "全部发佈",
+        "schedule": "排程(诙谐)",
+        "arrange": "排成(隐藏)"
+      },
+      "button": {
+        "compile": "编辑",
+        "cancel": "取消",
+        "nextStep": "下一步"
+      }
+    },
+    "courseSort": {
+      "prompt": "可用滑鼠拖课件拉先后次序：",
+      "button": {
+        "previous": "上一步",
+        "done": "完成"
+      }
+    },
+    "UploadingFile": {
+      "tip":"上传图片/影片",
+      "btn":"确认上传"
+    }
+  },
+  "coursefinish":{
+    "page": "coursefinish",
+    "language": "zh",
+    "content":{
+      "title":"校本课程",
+      "Completed":"已完成",
+      "backbtn":"返回"
+    }
+  },
+  "knowledgefinish":{
+    "page": "knowledgefinish",
+    "language": "zh",
+    "content": {
+      "title":"生活知识",
+      "Completed":"已完成",
+      "Open":"已解锁物件",
+      "change":"更换此套",
+      "backbtn":"返回"
+    }
+  },
+  "ranking":{
+    "page": "ranking",
+    "language": "zh",
+    "content":{
+       "btnrules":"龙虎榜准则",
+       "time":"更新日期"
+    }
+  }  
+}

@@ -1,0 +1,419 @@
+{
+  "home": {
+    "page": "home",
+    "language": "zh",
+    "publicMsg": {
+      "header": {
+        "loginbtn": "登入",
+        "registerbtn": "注冊",
+        "searchTips": "搜索內容",
+        "rankingList": "龍虎榜",
+        "history": "觀看記錄",
+        "favorite": "我的最愛",
+        "award": "我的獎賞",
+        "parents": "家長版",
+        "translations": "多語言",
+        "accomplish": "學習成果",
+        "languageList": {
+          "translations": "多語言",
+          "locationLanguage": "語言",
+          "location": "其他地區",
+          "locations": {
+            "hk": "中國香港",
+            "my": "馬來西亞",
+            "hk_GFW": "中國香港(跨境)",
+            "cn": "中國大陸",
+            "mo": "中國澳門"
+          }
+        }
+      },
+      "footer": {
+        "about": "關於我們",
+        "liaison": "聯絡我們",
+        "agreement": "隱私條款",
+        "Disclaimer": "免責條款"
+      },
+      "drawer": {
+        "ChangePword": "修改密碼",
+        "LogoutWord": "登出",
+        "charttitle": "本周自學時間",
+        "chartmin": "分鐘",
+        "chartweek": "星期",
+        "awardtitle": "成就",
+        "more": "更多成就資料",
+        "LogoutTitle": "你確定要登出嗎？",
+        "Btncancel": "取消",
+        "Btnconfirm": "確認",
+        "titleTransfer": "帳號轉移"
+      },
+      "role": {
+        "firstLogin": {
+          "title": "登錄子女賬號",
+          "form": {
+            "username": "請輸入用戶名",
+            "pwd": "请輸入密碼"
+          },
+          "rememberMe": "記住我",
+          "forgetPwd": "忘記密碼",
+          "loginIn": "登入",
+          "fbLoginIn": "Facebook 登入",
+          "wxLoginIn": "Wechat 登入",
+          "LoginTipsRegister": {
+            "or": "或",
+            "tips": "還未註冊,立即登記!",
+            "goParent": "家長賬號"
+          }
+        },
+        "edit": {
+          "title": "家長管理",
+          "family": "家庭 :",
+          "parent": {
+            "parentTitle": "家長",
+            "role": "管理員",
+            "father": "父親",
+            "mother": "母親"
+          },
+          "kid": {
+            "kidTitle": "子女",
+            "state": {
+              "isBinding": "已綁定",
+              "unbound": "未綁定"
+            },
+            "role": {
+              "isBinding": "正式賬戶",
+              "unbound": "試用賬戶"
+            }
+          },
+          "addKid": "新增子女",
+          "addFamilyKid": "邀請家庭成員加入",
+          "ensure": "確定"
+        },
+        "tipsAddKid": {
+          "title": "新增其他子女",
+          "addTrialAccout": "新增試用賬戶",
+          "addExistAccout": "添加已有evi賬戶"
+        },
+        "addKid": {
+          "form": {
+            "f_name": "名",
+            "l_name": "姓",
+            "gender": {
+              "M": "男",
+              "F": "女"
+            },
+            "grade": "年級"
+          },
+          "title": "新增試用賬戶",
+          "addAccount": "新增",
+          "return": "返回"
+        },
+        "addParent": {
+          "title": "新增家長",
+          "form": {
+            "msg_tips": "請選擇方式添加家長(只需壹種)",
+            "email": "請輸入郵箱",
+            "tel": "請輸入手機號碼",
+            "relation_tips": "請選擇家長和子女的關系",
+            "relation": [
+              "爸爸",
+              "媽媽",
+              "奶奶",
+              "爺爺",
+              "外公",
+              "婆婆"
+            ]
+          },
+          "save": "新增家長",
+          "return": "返回"
+        }
+      },
+      "search": {
+        "placeholder": "搜尋 EVI 資源"
+      },
+      "resource_type": {
+        "jttw360": "探索360",
+        "jttw": "通識漫游",
+        "learn": "自學小天地",
+        "project": "探索小活動",
+        "document": "工作紙",
+        "mc": "MC",
+        "img_real": "相片",
+        "img_cartoon": "卡通圖",
+        "img_line_graph": "線圖"
+      }
+    }
+  },
+  "loading": {
+    "page": "logout",
+    "language": "zh",
+    "publicMsg": {
+      "register": {
+        "title": "小朋友家長，歡迎您!!!",
+        "content": "請填寫您的資料以進行家長登入程序。",
+        "procedure": {
+          "code": "注冊碼",
+          "verify": "驗證",
+          "done": "完成"
+        },
+        "type": {
+          "email": "郵箱",
+          "phone": "電話",
+          "facebook": "Facebook"
+        },
+        "form": {
+          "email": "郵箱",
+          "pwd": "密碼",
+          "confirmpwd": "確認密碼",
+          "sex": "性別",
+          "man": "先生",
+          "lady": "女士",
+          "name": "名字",
+          "surname": "姓氏",
+          "phone": "電話",
+          "occupied": "郵箱已被注冊",
+          "verifyMsg": {
+            "emailMsg": "請輸入郵箱",
+            "emailWarnMsg": "請輸入正確的郵箱格式",
+            "pwdMsg": "請輸入密碼",
+            "pwdWarnMsg": "請輸入6~30位包含大小寫字母及數字的密碼",
+            "confirmMsg": "請再次輸入密碼",
+            "confirmWarnMsg": "兩次輸入的密碼不一致",
+            "name": "名字不能為空",
+            "surname": "姓氏不能為空",
+            "nameMsg": "請輸入您的名字",
+            "surnameMsg": "請輸入您的姓氏",
+            "phoneMsg": "請選擇與您的手機號碼相對應的區號",
+            "phone": "請輸入手機號碼",
+            "phoneWarnMsg": "請輸入正確的手機格式"
+          },
+          "btn": "注册"
+        },
+        "verify": {
+          "code": "驗證碼",
+          "codeMsg": "請輸入接收到的驗證碼",
+          "codeWarnMsg": "請輸入6位數字的驗證碼",
+          "sendbtn": "重新發送",
+          "resendbtn": "后重新发送",
+          "btn": "驗證"
+        }
+      }
+    },
+    "content": {
+      "titleleft": "自主探索",
+      "contentleft": "EVIGarten以「自主探索‧學會學習」為理念，透過AI智能建議幼兒觀看感興趣的內容，鼓勵進行自主探索學習。",
+      "titlemiddle": "多元課程",
+      "contentmiddle": "備有精心編排的多元課程，包括帶領幼兒探索世界的「探索360」；提供幼稚園常用十大主題的「生活知識」，另外其他幼兒多媒體課程內容。",
+      "titleright": "學習歷程",
+      "contentright": "為家長和幼兒提供完善的學習歷程檔案，讓家長更了解小朋友的學習興趣和步伐，透過可愛的學習記錄形式，亦同時推動幼兒主動學習的動力。",
+      "morebtn": "查看更多"
+    },
+    "login": {
+      "parentLogin": {
+        "welcomeTips": {
+          "oneLine": "小朋友家長,歡迎您",
+          "towLine": "請輸入家長賬號登入資料"
+        },
+        "loginIn": "登入",
+        "ParentTipsRegister": {
+          "or": "或",
+          "tips": "未有家長賬賬戶?",
+          "goParent": "立即登記"
+        }
+      }
+    },
+    "forget": {
+      "infortitle": "輸入資料",
+      "title": "驗證",
+      "gettitle": "請輸入電郵/電話",
+      "inputrule": "請輸入電郵/電話",
+      "verifybtn": "獲取驗證碼",
+      "verifytitle": "验证码已寄到以账号",
+      "verifynumber": "驗證碼",
+      "verifyrule": "請輸入驗證碼",
+      "getverifybtn": "獲取驗證碼",
+      "password": "密碼",
+      "passwordnull": "请输入密码",
+      "passwordrule": "請輸入6~30位包含大小寫字母及數字的密碼",
+      "passwordbtn": "重置密碼"
+    },
+    "course": {
+      "title": "生活知識",
+      "content": "十大主題包括交通、動物、大自然、社區、健康與衛生、學校、環保、食物、個人與家庭、幫助我們的人，讓小朋友按興趣學習更多不同知識，另更輔有「MC題」、「工作紙」，和「專題探索」。"
+    },
+    "explore": {
+      "title": "探索360",
+      "content": "配合動畫故事、思考題、遊戲、德育等元素，鼓勵學童多探索、多思考，從而建構知識。"
+    }
+  },
+  "achievements": {
+    "page": "achievements",
+    "language": "zh",
+    "content": {
+      "titleImg": "請選擇需要上傳的圖片",
+      "titlerelationship": "親子關係",
+      "titleTime": "今日使用時間",
+      "min": "分鐘",
+      "titleAbility": "腦力大挑戰能力",
+      "Logintime": {
+        "today": "今天",
+        "week": "過去7天",
+        "month": "過去30天"
+      }
+    }
+  },
+  "info": {
+    "page": "info",
+    "language": "zh",
+    "content": {
+      "Message": {
+        "title": "家長留言",
+        "btnword": "我想留言",
+        "tiptitle": "請輸入文字",
+        "commentsword": "預設評論",
+        "Submitbtn": "提交"
+      },
+      "Card": {
+        "Sharebtn": "其他小朋友專題探索",
+        "backbtn": "返回"
+      }
+    }
+  },
+  "myFavorite": {
+    "page": "favorite",
+    "language": "zh",
+    "content": {
+      "title": "我的最愛"
+    }
+  },
+  "history":{
+    "page": "history",
+    "language": "zh",
+    "content": {
+      "title": "觀看記錄"
+    }
+  },
+  "course_1":{
+    "page": "course_1",
+    "language": "zh",
+    "content": {
+      "traffic": "交通",
+      "ModalTitle":"請選擇需要上傳的圖片/影片",
+      "Breadcrumb": {
+        "home": "首頁",
+        "lifeKnowledge": "生活知識"
+      },
+      "option": {
+        "grade": "请选择年级",
+        "studentEdit": "學生管理",
+        "calssAdd": "新增課程"
+      },
+      "edit": {
+        "banner": "更改封面相片",
+        "video": "更改影片",
+        "logo": "更新",
+        "background": "更改背景"
+      },
+      "PopupAECoursware":{
+        "Type":"類型",
+        "State":"狀態",
+        "Name":"名稱",
+        "Question" : "題目",
+        "File" : "文件",
+        "FileSupport" : "支援檔案",
+        "Coverimg":"封面圖",
+        "Coverimgbtn":"上傳圖片",
+        "CoverimgSupport":"支持檔案",
+        "Grade":"年級",
+        "Releasetime":"發佈時間",
+        "Endtime":"結束時間",
+        "Teachingfocus":"教學重點",
+        "Keywords":"關鍵字",
+        "TITLE":"新加",
+        "btnadd":"添加",
+        "btnsure":"確定",
+        "Radiodocument":"工作紙",
+        "Radioproject":"探索小活動",
+        "SelectEffective":"有效",
+        "SelectInvalid":"無效",
+        "rulesType":"請選擇類型",
+        "rulesStatus":"請選擇狀態",
+        "rulesName":"請輸入名稱",
+        "rulesGrade":"請選擇年級",
+        "rulesReleasetime":"请选择发布时间"
+      },
+      "PopupCoursware":{
+        "title":"搜尋課件",
+        "changeItem":"已選擇",
+        "Teachingfocus":"教學重點",
+        "btnnew":"新建",
+        "btnbuild":"建立",
+        "edit":"編輯"
+      }
+    },
+    "tabs": {
+      "data": "課程資料",
+      "sort": "課件排序"
+    },
+    "courseData": {
+      "editTitle": "編輯課程",
+      "addTitle": "新增課程",
+      "form": {
+        "name": "課程名稱",
+        "publish_time": "發佈時間",
+        "end_time": "結束日期",
+        "grade": "年級",
+        "description": "教學重點"
+      },
+      "RadioGroup": {
+        "all": "全部發佈",
+        "schedule": "排程(詼諧)",
+        "arrange": "排成(隱藏)"
+      },
+      "button": {
+        "compile": "編輯",
+        "cancel": "取消",
+        "nextStep": "下一步"
+      }
+    },
+    "courseSort": {
+      "prompt": "可用滑鼠拖課件拉先後次序：",
+      "button": {
+        "previous": "上一步",
+        "done": "完成"
+      }
+    },
+    "UploadingFile": {
+      "tip":"上傳圖片/影片",
+      "btn":"確認上傳"
+    }
+  },
+  "coursefinish":{
+    "page": "coursefinish",
+    "language": "zh",
+    "content":{
+      "title":"校本課程",
+      "Completed":"已完成",
+      "backbtn":"返回"
+    }
+  },
+  "knowledgefinish":{
+    "page": "knowledgefinish",
+    "language": "zh",
+    "content": {
+      "title":"生活知識",
+      "Completed":"已完成",
+      "Open":"已解鎖物件",
+      "change":"更換此套",
+      "backbtn":"返回"
+    }
+  },
+  "ranking":{
+    "page": "ranking",
+    "language": "zh",
+    "content":{
+       "btnrules":"龍虎榜準則",
+       "time":"更新日期"
+    }
+  }
+  
+}

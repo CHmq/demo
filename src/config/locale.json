@@ -1,0 +1,136 @@
+{
+  "LOCATION": "hk",
+  "GLOBAL_ROUTE": true,
+  "SUPPORT_LOCALES": {
+    "hk": {
+      "lang": [
+        {
+          "name": "繁体中文",
+          "value": "zh",
+          "url": "zh-hk"
+        },
+        {
+          "name": "English",
+          "value": "english",
+          "url": "en"
+        }
+      ],
+      "vo_lang": [
+        {
+          "name": "廣東話",
+          "value": "cantonese",
+          "url": null
+        },
+        {
+          "name": "English",
+          "value": "english",
+          "url": null
+        },
+        {
+          "name": "普通話",
+          "value": "putonghua",
+          "url": null
+        }
+      ],
+      "tel" : "852",
+      "url": "https://www.evigarten.com/",
+      "assets": "https://assets.evigarten.com/",
+      "global": true
+    },
+    "my": {
+      "lang": [
+        {
+          "name": "English",
+          "value": "english",
+          "url": "en"
+        },
+        {
+          "name": "简体中文",
+          "value": "cn",
+          "url": "zh-CN"
+        }
+      ],
+      "vo_lang": [
+        {
+          "name": "English",
+          "value": "english",
+          "url": null
+        },
+        {
+          "name": "普通話",
+          "value": "putonghua",
+          "url": null
+        }
+      ],
+      "tel" : "60",
+      "url": "https://www.evigarten.com/",
+      "assets": "https://assets.evigarten.com/",
+      "global": true
+    },
+    "mo": {
+      "lang": [
+        {
+          "name": "繁体中文",
+          "value": "zh",
+          "url": "zh-hk"
+        },
+        {
+          "name": "English",
+          "value": "english",
+          "url": "en"
+        }
+      ],
+      "vo_lang": [
+        {
+          "name": "廣東話",
+          "value": "cantonese",
+          "url": null
+        },
+        {
+          "name": "English",
+          "value": "english",
+          "url": null
+        },
+        {
+          "name": "普通話",
+          "value": "putonghua",
+          "url": null
+        }
+      ],
+      "tel" : "853",
+      "url": "https://www.evigarten.com/",
+      "assets": "https://assets.evigarten.com/",
+      "global": true
+    },
+    "cn": {
+      "lang": [
+        {
+          "name": "简体中文",
+          "value": "cn",
+          "url": "zh-CN"
+        },
+        {
+          "name": "English",
+          "value": "english",
+          "url": "en"
+        }
+      ],
+      "vo_lang": [
+        {
+          "name": "普通話",
+          "value": "putonghua",
+          "url": null
+        },
+        {
+          "name": "English",
+          "value": "english",
+          "url": null
+        }
+      ],
+      "tel" : "86",
+      "url": "https://www.evifaimly.com.cn/",
+      "assets": "https://assets.evifaimly.com.cn/",
+      "global": false
+    }
+  }
+}

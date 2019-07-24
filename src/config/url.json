@@ -1,0 +1,7 @@
+{
+    "BASE_URL" : "https://www.evifamily.com",
+    "API_URL": {
+        "user": "https://api-user.service.evifamily.com",
+        "resource": "https://api-resource.service.evifamily.com"
+    }
+}

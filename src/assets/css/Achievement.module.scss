@@ -1,0 +1,44 @@
+//成就页面样式
+
+:global{
+  .achieve{
+    position: relative;
+    background: #fff9e3;
+    border: 8px solid #ffd195;
+    border-radius: 10px;
+    padding: 60px 20px 20px;
+    margin: 50px 0;
+    .ant-col{
+      text-align: center;
+    }
+    .title{
+      width: 50%;
+      height: auto;
+      position: absolute;
+      top: -40px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  @media (min-width: 1200px){
+    .achieve{
+      .ant-col{
+        width: 20%
+      }
+    }
+  }
+  @media (max-width: 992px){
+    .achieve{
+      .title{
+        top: -30px;
+      }
+    }
+  }
+  @media (max-width: 375px){
+    .achieve{
+      .title{
+        top: -20px;
+      }
+    }
+  }
+}

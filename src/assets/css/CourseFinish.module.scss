@@ -1,0 +1,47 @@
+$blue:rgb(1, 88, 155);
+$gray:rgb(175, 175, 175);
+.CourseFinishWarp {
+  .blackboardHeader {
+    height: 50px;
+    background: url('../image/blackboardh.png') no-repeat center center / 100% 100%;
+  }
+  .blackboardFooder {
+    height: 50px;
+    background: url('../image/blackboardf.png') no-repeat center center / 100% 100%;
+  }
+  .blackboard {
+    padding: 10px;
+    flex-wrap:wrap;
+    background: url('../image/blackboard.png');
+    .main {
+      display: flex;
+      flex-wrap:wrap;
+    }
+    .item {
+      margin: .5%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1%;
+      .avatar {
+        display: block;
+        width: 90%;
+      }
+    }
+    @media (min-width: 992px) {
+      .item {
+        width: 9%;
+        margin:2% .5%;
+      }
+    }
+    .item:nth-child(1n) {
+      background: url('../image/CircleB.png') no-repeat center center /90%;
+    }
+    .item:nth-child(2n) {
+      background: url('../image/CircleG.png') no-repeat center center /90%;
+    }
+    .item:nth-child(3n) {
+      background: url('../image/CircleR.png') no-repeat center center /90%;
+    }
+  }
+}

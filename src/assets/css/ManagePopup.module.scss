@@ -1,0 +1,58 @@
+:global {
+  .manageModal {
+    overflow: hidden;
+    .ant-modal-close-x {
+      color: #fff;
+    }
+    .ant-modal-content {
+      background-color: rgba(0,0,0,0);
+      .ant-modal-body {
+        padding: 0;
+  
+        .ant-card-body {
+          padding: 0;
+        }
+      }
+    }
+    .manage-container {
+      background: #2b4b80;
+      border-radius: 10px;
+      overflow: hidden;
+      .title {
+        margin: 0;
+        font-size: 20px;
+        height: 60px;
+        line-height: 60px;
+        color: #fff;
+        padding: 0 20px;
+      }
+      .card-container {
+        .ant-tabs-card {
+          .ant-tabs-content {
+            margin-top: -16px;
+            .ant-tabs-tabpane {
+              background: #fff;
+              padding: 16px;
+            }
+          }
+          .ant-tabs-bar {
+            border-color: #fff;
+            .ant-tabs-tab {
+              color: #fff;
+              border-color: transparent;
+              background: transparent;
+              padding: 0 30px;
+              font-size: 12px;
+            }
+            .ant-tabs-tab-active {
+              color: #2b4b80;
+              border-color: #fff;
+              background: #fff;
+              border-radius: 10px 10px 0 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
